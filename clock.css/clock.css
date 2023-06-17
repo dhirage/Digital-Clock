@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("/images/morning.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ffcca5;
+    letter-spacing: 4px;
+    text-align: center;
+    border: 3px solid rgb(193, 238, 130);
+    border-radius: 3px;
+    padding: 0 20px;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.clock div{
+  margin: 5px;
+  position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    display: flex;
+    opacity: .8;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+}
+.clock #ampm{
+    bottom: -55px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+    border: 2px solid rgb(255, 208, 91);  
+    border-radius: 4px;  
+}
